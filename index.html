@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Engineering Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Data Portfolio</h1>
+						<h2> Data Engineering Project </h2>
+						<h3> With SQL, Python, and Other ETL Tools </h3>
+						<p>Created by Muchammad Malik</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">MY PORTFOLIO</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="https://mmalik17.github.io/dataportfolio/">Data Science</a></li>
+							<li class="active"><a href="index.html">Data Engineering</a></li>
+							<li><a href="https://mmalik17.github.io/datavisualization/">Data Visualization</a></li>
+							<li><a href="https://mmalik17.github.io/machinelearning/">Machine Learning</a></li>
+						</ul>						
+					</nav>
+				
+				<!-- Main -->
+					<div id="main">					
+						
+
+						
+						<!-- Featured Post -->
+						<!-- COMMENTED FOR A WHILE ----------------------------------------------
+							<article class="post featured">													
+								<header>
+									<span class="date">Natural Language Processing</span>									
+									<h2><a href="#">Identifying Spam Email Text with<br />
+									Natural Language Processing</a></h2>									
+								</header>							
+								<a href="#" class="image fit"><img src="https://raw.githubusercontent.com/mmalik17/datascience/main/images/content/email-home-min.jpg" alt="" /></a>
+									<p> 
+									Spam email is an unwanted message that come to our email account, mostly from mass broadcast. 
+									Usually, spam messages have certain simillar pattern, such as offering discount, offering free product, etc. The opposite of the spam email is ham email.
+									</p>
+									<p>
+									In this project, the machine learning model predicts which email considered as spam or ham. The data is splitted into two section, 80% training data and
+									20% test data. The future purpose of this machine learning is selected the spam email to spam folder, so the primary folder is cleaned from spam or unwanted email. </p>
+									<p>
+									<b> Objectives: </b> <br />
+									Create a model that could differentiate spam and ham email with natural language processing (NLP) technique
+									</p>
+									<p><b> Challenge: </b> <br/>
+									The model should have accuracy more than 85%
+									</p>
+									
+								<ul class="actions special">
+									<li><a href="https://github.com/mmalik17/FGA-ML-capstone-project/blob/main/Capstone%20Project_Text%20Classification/NLP_Muchammad_Malik.ipynb" class="button large">View Project</a></li>
+								</ul>
+							</article>
+							------------------------------------------------ COMMENTED FOR A WHILE -->
+						
+							<section class="posts">								
+								<article>									
+									<header>
+										<span class="date">Data Pipeline</span>
+										<h2><a href="#">CLAUDE AI ECONOMIC INDEX DATA PIPELINE WITH<br />
+										Docker, dbt, Google Cloud Platform, and Streamlit dashboard</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="...." alt="" /></a>
+									<p>
+									This project contains an end-to-end data engineering pipeline and interactive dashboard visualizing Claude AI's economic impact and usage patterns across the global economy. The project leverages Anthropic's Economic Index (AEI) dataset (survey taken date: Feb 5–12, 2026).
+									</p>
+									<p>
+									<b> Objectives: </b> <br />
+									1. Map Global Adoption of Claude's usage share at both national and subnational (state/province) levels
+									2. Validate Productivity Gains by comparing the time taken for tasks with and without AI 
+									3. Assess Skill Democratization by comparing human education requirements against AI-demonstrated knowledge 
+									</p>
+									<p><b> Challenge: </b> <br/>
+									1. The data has large number of columns, so the data transformation is very crucial to filter out only the column we need
+									2. Connecting the local script, to Google Cloud Platform need several credential setup
+									</p>									
+									<ul class="actions special">
+										<li><a href="https://github.com/mmalik17/claude-ai-economic-index/" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>									
+									<header>
+										<span class="date">Data Pipeline</span>
+										<h2><a href="#">NY TAXI DATA PIPELINE WITH<br />
+										SPARKSQL AND GOOGLE BIGQUERY</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="....." alt="" /></a>
+									<p> In this project, the data pipeline is connecting the data from NYC Taxi website as main source, transforming the data using SparkSQL, and load the transformed data to BigQuery datamart. The datamart contains several business metrics to evaluate the trip data of NYC Taxi, to identify which location and route that has a biggest trip. For simplicity, the scope of the data range is only at November 2025
+									</p>
+									<p>
+									<b> Objectives: </b> <br/>
+									Create a data pipeline that transform the NY Taxi data source to data mart in BigQuery containing three business metrics, such as:
+									1. The daily trip counts
+									2. The most frequent pickup locations
+									3. The top routes (pickup-dropoff location pair)
+									</p>
+									<p><b> Challenge: </b> <br/>
+									1. Data source format is parquet file, so it need to be transformed before loading to data mart
+									2. There are outlier related to date. The data scope should only contain data from November 2025, but the pickup_date column shows data from 2025-10-26, 2025-10-27, 2025-10-30, and 2025-10-31
+									</p>
+									
+									<ul class="actions special">
+										<li><a href="https://github.com/mmalik17/DE_Zoomcamp_2026/tree/main/module-06-batch-spark/personal_spark_project_directory" class="button">View Project</a></li>
+									</ul>
+								</article>
+							</section>
+						
+
+						<!-- Posts -->
+						<!-- COMMENTED FOR A WHILE ----------------------------------------------
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">Clustering</span>
+										<h2><a href="#">Predict Customer Personality <br/>
+										To Boost Marketing Campaign</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="https://raw.githubusercontent.com/mmalik17/machinelearning/main/images/255-2558420_segmentation-transparent-background-hd-png-download.png" alt="" /></a>
+									<p> 
+									<b> Background: </b> <br />
+									Identify cluster from customer data is one of the strategis to increase efficiency of marketing campaign. With clustering, the company can identify
+									which group of customers is a good prospect and which group isn't 
+									</p>									
+									<p>
+									<b> Objectives: </b> <br />
+									1. Create a cluster that differentiate potential customer and non-potential customer <br>
+									2. Compare the business metric in the company before and after specify the campaign to specific cluster <br>								
+									</p>
+									<p><b> Challenge: </b> <br/>
+									1. The exact number of cluster is not given. <br>
+									2. We must do experiment by Elbow Method and Shilluette Score to identify how many cluster should be.<br />			
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mmalik17/Rakamin-Personal-Project/tree/main/Customer-Personality-Analysis-for-Marketing-Campaign" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Classification</span>
+										<h2><a href="#">Improving Employee Retention by Predicting Employee Attrition Using Machine Learning<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="https://raw.githubusercontent.com/mmalik17/machinelearning/main/images/employee.jpeg" alt="" /></a>
+									<p> 
+									<b> Background: </b> <br />
+									This project has a purpose to create machine learning model that could predict which employee that would likely to resign. 
+									By using this model, employee resigning could be prevented and retention could be improved. </p>
+									<p>
+									<b>Objectives:</b> <br>
+									1. Create model to predict employee retention <br>
+									2. Give business recommendation to improve retention rate.
+									</p>
+									<p>
+									<b>Challenge:</b> <br>
+									1. Make sure that the data is clean, which means free from missing value, duplicated value, and outlier. <br>
+									2. Experiment the machine learning model with Make sure that the data is clean, which means free from missing value, duplicated value, and outlier.,  
+																		
+									<ul class="actions special">
+										<li><a href="https://github.com/mmalik17/Rakamin-Personal-Project/tree/main/Improving-Employee-Retention" class="button">View Project</a></li>
+									</ul>
+								</article>													
+							</section>
+						------------------------------------------------ COMMENTED FOR A WHILE -->
+
+						<!-- Footer -->
+<!-- 							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+							<!--
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+ 							-->
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Bekasi, Indonesia</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(+62)812-8040-7242</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">muchammad.malik@gmail.com</a></p>
+							</section>
+					</section>
+<!-- 						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section> -->
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
